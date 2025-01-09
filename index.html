@@ -7,6 +7,10 @@
         <meta name="author" content="João Bispo">
         <meta name="keywords" content="HTML, CSS, JavaScript">
         <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+
+        <!-- Link para a Folha de Estilo da Página - CSS -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+
         <title>Meu Perfil</title>
     </head>
     <body>
@@ -14,7 +18,7 @@
         <header>
 
             <!-- Div Conteudo do Cabeçalho -->
-            <div id="header_content">
+            <div id="header_content" class="flex">
 
                 <!-- Titulo do Cabeçalho -->
                 <div id="titulo">
@@ -45,18 +49,20 @@
         <main>
 
             <!-- Seção Sobre você -->
-			 <section id="about">
+			 <section id="about" class="flex_start">
 
                 <!-- Título da Seção -->
-				<h2>Sobre a mim</h2>
+				<h2>Sobre mim</h2>
 
 				<!-- Conteúdo da Seção -->
-				<div id="conteudo">
+				<div id="conteudo" class="flex">
 
 					<!-- Imagem do criador do conteúdo -->
 					<img
-						src="./assets/img/user_01.svg"
+						src="assets\img\minha_foto.jpg"
 						alt="Foto do criador desse conteudo"
+
+                        class="img_profile"
 					/>
 
 					<!-- Texto sobre o criador do conteúdo -->
@@ -80,11 +86,7 @@
 
 						</p>
                            <p>
-							Teste teste Teste teste Teste teste Teste teste Teste teste
-                            Teste teste Teste teste Teste teste Teste teste Teste teste
-                            Teste teste Teste teste Teste teste Teste teste Teste teste
-                            Teste teste Teste teste Teste teste Teste teste Teste teste
-                            Teste teste Teste teste Teste teste Teste teste Teste teste
+							
 						</p>
 					</article>
 				</div>
@@ -92,13 +94,13 @@
 			 </section>
 			 
 			 <!-- Seção contendo um vídeo de sua preferência -->
-			 <section id="video">
+			 <section id="video" class="flex_start">
 
                 <!-- Título da Seção -->
 				<h2>Meu vídeo favorito:</h2>
 
 				<!-- Vídeo da Seção -->
-				<div class="youtube">
+				<div class="youtube" class="flex">
 					<iframe
 						width="560"
 						height="315"
@@ -114,25 +116,28 @@
         </main>
 
         <!-- Rodapé da Página (footer) -->
-        <footer>
+        <footer class="flex">
 
             <!-- Seção de Contato - Redes Sociais-->
             <section id="redes_sociais">
 
-                <a href="">
-                    <img src="assets/img/linkedin.svg" alt="LinkedIn" />
+                <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-bispo-836767174/">
+                    <img src="assets/img/linkedin.svg" 
+                    alt="LinkedIn" />
                 </a>
-                <a href="">
-                    <img src="assets/img/github.svg" alt="Github" />
+                <a href="https://github.com/jotaBMS">
+                    <img src="assets/img/github.svg"
+                     alt="Github" />
                 </a>
-                <a href="">
-                    <img src="assets/img/instagram.svg" alt="Instagram" />
+                <a href="https://www.instagram.com/juaun_bispo/">
+                    <img src="assets/img/instagram.svg" 
+                    alt="Instagram" />
                 </a>
 
         </section>
 
         <h3>
-            Feito com 🧡 por Joao Bispo - 2025
+            Feito por Joao Bispo - 2025
         </h3>
 
         </footer>

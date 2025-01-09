@@ -6,42 +6,56 @@
 		<meta name="description" content="Projeto Portfólio">
 		<meta name="author" content="João Bispo">
 		<meta name="keywords" content="HTML, CSS, JavaScript">
+
+        <!-- Link para a Folha de Estilo da Página - CSS -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+
 		<title>Meu Perfil c</title>
 	</head>
 	<body>
-		<!-- Cabeçalho da Página (header) -->
-		<header>
-			<!-- Div Conteudo do Cabeçalho -->
-			<div id="header_content">
-				<!-- Titulo do Cabeçalho -->
-				<div id="titulo">
-					<!-- Seu nome -->
-					<h1>João Bispo</h1>
-				</div>
+			<!-- Cabeçalho da Página (header) -->
+            <header>
 
-				<!-- Conteudo do Menu da Página (header) -->
-				<div id="menu">
-					<!-- Menu da Página -->
-					<nav>
-						<!-- Marcadores não ordenados + links -->
-						<ul id="menu">
-							<li>
-								<a href="index.html"> Home </a>
-							</li>
-							<li>
-								<a href="contato.html"> Contato </a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</header>
+                <!-- Div Conteudo do Cabeçalho -->
+                <div id="header_content" class="flex">
+    
+                    <!-- Titulo do Cabeçalho -->
+                    <div id="titulo">
+    
+                        <!-- Seu nome -->
+                        <h1>Generation Brasil</h1>
+    
+                    </div>
+    
+                    <!-- Conteudo do Menu da Página (header) -->
+                    <div id="menu">
+    
+                        <!-- Menu da Página -->
+                        <nav>
+    
+                            <!-- Marcadores não ordenados + links -->
+                            <ul id="menu">
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="contato.html">Contato</a>
+                                </li>
+                            </ul>
+    
+                        </nav>
+    
+                    </div>
+    
+                </div>
+    
+            </header>
 
 		<!-- Seção Principal da Página (main) -->
 		<main>
 
 			 <!-- Seção Formulário de Contato e Redes Sociais -->
-             <section id="contact">
+             <section id="contact" class="flex">
 
                 <!-- Seção do Formulário -->
                 <form action="#" method="submit" id="formulario">
@@ -90,7 +104,7 @@
                 </form>
 
                 <!-- Seção do Google Maps -->
-                <article id="mapa">
+                <article id="mapa" class="flex_start">
 
                     <p>Av. Paulista, 100</p>
 	<p>São Paulo - SP</p>
@@ -115,27 +129,27 @@
 		</main>
 
 		<!-- Rodapé da Página (footer) -->
-		<footer>
+		<!-- Rodapé da Página (footer) -->
+		<footer class="flex">
 
-			<!-- Seção de Contato - Redes Sociais -->
-            <section id="redes_sociais">
+			<!-- Seção de Contato - Redes Sociais-->
+			<section id="redes_sociais">
 
-                    <a href="">
-                        <img src="assets/img/linkedin.svg" alt="LinkedIn" />
-                    </a>
-                    <a href="">
-                        <img src="assets/img/github.svg" alt="Github" />
-                    </a>
-                    <a href="">
-                        <img src="assets/img/instagram.svg" alt="Instagram" />
-                    </a>
+				<a href="">
+					<img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
+				</a>
+				<a href="">
+					<img src="assets/img/github.svg" alt="Github" class="social_icon"/>
+				</a>
+				<a href="">
+					<img src="assets/img/instagram.svg" alt="Instagram" class="social_icon"/>
+				</a>
 
-            </section>
+			</section>
 
-			<h3>
-				Feito com 🧡 por João Bispo - 2025
-			</h3>
+			<h3>Feito por João Bispo - 2025</h3>
 
 		</footer>
+
 	</body>
 </html>
